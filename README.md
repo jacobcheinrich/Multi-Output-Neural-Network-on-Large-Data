@@ -19,5 +19,5 @@ If there are categories present in all items, I removed them to help the model l
 How many categories within the top 5 highest probabilities are seen in the testing observation?
 
 ## 4: Follow-up:
-Variable Importance /n
-Partial Dependency Plot
+###### Variable Importance
+###### Partial Dependency Plot
