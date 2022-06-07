@@ -6,7 +6,7 @@ Estimating a multi-output feed-forward neural network on data that is larger tha
 The data comes from Amazon, and the category is specified by the seller of the product. The seller selects categories from a list, but there is also an ‘other’ category. When the ‘other’ category is selected the seller has tocreate the category. This makes it a challenging task to detect incorrect categories. The goal in this assignment is to predict which categories a product belongs to based on its title. To clean up the categories assigned to a product we will then retain the top five categories (i.e., the five categories with the highest probability). If the model is accurate, the result will be that categories will be correct (in case a wrong category was selected from the list), and that the categories that were created but not useful (e.g., those that have typographical errors, or are
 inappropriate) will be filtered out.
 
-### Process
+# Process
 ## 1: PREPARE DUMMY VECTOR STRUCTURE
         
 Cycle through all the data once to get all the unique words and count how many times they occur.
@@ -19,5 +19,5 @@ If there are categories present in all items, I removed them to help the model l
 How many categories within the top 5 highest probabilities are seen in the testing observation?
 
 ## 4: Follow-up:
-##### Variable Importance
-##### Partial Dependency Plot
+Variable Importance
+Partial Dependency Plot
